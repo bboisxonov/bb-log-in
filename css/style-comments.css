@@ -1,0 +1,14 @@
+.box:nth-child(odd) {
+    background-color: rgb(211, 204, 204);
+    color: black;
+}
+.box:nth-child(even){
+    background-color: white;
+    color: black;
+}
+.back-btn{
+    transition: all 0.5s linear;
+}
+.back-btn:hover{
+    transform: rotate(360deg);
+}

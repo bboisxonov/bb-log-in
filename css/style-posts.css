@@ -1,0 +1,21 @@
+.card-site{
+    transition: all 0.3s ease-in;
+}
+.card-site:hover{
+    box-shadow: 0 0 10px 2px black;
+    transform: perspective(800px) translateZ(10px);
+}
+.back-btn{
+    position: relative;
+    left: 90%;
+    animation: btn-animation 3s ease;
+    animation-fill-mode: both;
+}
+@keyframes btn-animation{
+    0%{
+        transform: rotate(30deg);
+    }
+    100%{
+        transform: translateX(-1370px) rotate(0);
+    }
+}

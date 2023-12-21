@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style-comments.css" />
+</head>
+
+<body>
+
+    <button class="back-btn btn btn-primary m-5 mb-0 mt-4 px-3">Back</button>
+    <ul class="comments-list p-5"></ul>
+
+    <template id="comments-template">
+        <div class="box border border-3 border-info p-3 rounded m-3">
+            <h3 class="comments-name"></h3>
+            <h5 class="comments-email"></h5>
+            <p class="comments-body"></p>
+        </div>
+
+    </template>
+
+
+    <script src="./js/comments.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style-posts.css" />
+</head>
+
+<body>
+
+    <button class="back-btn btn btn-success m-5 mb-0 mt-4 px-3">Back</button>
+    <ul class="post-list row w-100 justify-content-between"></ul>
+
+    <template id="posts-template">
+        <div
+            class="card-site col-3 card card-body border-2 border-success w-25 m-4 d-flex flex-column justify-content-between">
+            <h2 class="post-title"></h2>
+            <p class="post-body"></p>
+            <button class="comments btn btn-info">comments</button>
+        </div>
+
+    </template>
+
+    <script src="./js/posts.js"></script>
+</body>
+
+</html>
