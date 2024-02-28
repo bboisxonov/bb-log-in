@@ -7,15 +7,4 @@
 }
 .back-btn{
     position: relative;
-    left: 90%;
-    animation: btn-animation 3s ease;
-    animation-fill-mode: both;
-}
-@keyframes btn-animation{
-    0%{
-        transform: rotate(30deg);
-    }
-    100%{
-        transform: translateX(-1370px) rotate(0);
-    }
 }

@@ -6,9 +6,3 @@
     background-color: white;
     color: black;
 }
-.back-btn{
-    transition: all 0.5s linear;
-}
-.back-btn:hover{
-    transform: rotate(360deg);
-}
